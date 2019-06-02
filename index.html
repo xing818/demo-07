@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>e族之家</title>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		*{
+			padding: 0px;
+			margin: 0px;
+		}
+		body{
+			width: 100%;
+			height: 1090px;
+			
+		}
+		#header{
+			width: 100%;
+			height: 30px;
+			background-color: #f4f4f4;
+			text-indent: 140px;
+			line-height: 30px;
+			position: relative;
+		}
+		#header>p{
+			display: inline-block;			
+			line-height: 30px;
+			position: absolute;
+			right: 100px;
+		}
+		#nav{
+			height: 157px;
+			width: 100%;
+			background: url(images/5.jpg) no-repeat 140px 30px;
+			border-bottom: 3px solid #e00304;
+			position: relative;				
+		}
+		#text{
+			margin: 55px 0px 0px 500px;
+			width: 405px;
+			height: 36px;
+			border: 3px solid #e00304;
+			text-indent:20px;
+			color: #c1c1c1;
+			font-size: 14px;
+		}
+		#button{
+			display: inline-block;
+			width:56px;
+			height:42px;
+			background-color:#e00304;
+			border: 1px solid #e00304;
+			text-align: center;
+			color: white;
+			line-height: 42px;
+			font-size: 16px;
+			position: absolute;
+			left :910px;
+			top: 55px;
+		}	
+		#nav>div{
+			display: inline-block;			
+			width:150px;
+			height: 40px;			
+			background: url(images/6.jpg) no-repeat; 
+			position: absolute;
+			right :100px;
+			top: 60px;
+		}
+		#nav>ul>li{
+			display: inline-block;
+			list-style-type:none;
+			width: 80px;
+			height: 33px;
+			margin-left: 50px;
+			position: relative;
+			left:120px;
+			top: 25px;
+			line-height: 33px;
+			text-align: center;
+			font-size: 16px;
+		}
+		#nav>ul>li:hover{
+			background-color: #e00304;
+		}
+		#nav>ul>li>a{
+			text-decoration: none;
+			color: black;
+		}
+		
+		#banner{
+			height: 650px;
+			width: 100%;
+			background-color: #fbfbfb;
+			position: relative;
+		}
+		#banner>span{
+			display: inline-block;
+			margin-top: 36px;
+			margin-left: 180px;
+			font-size: 14px;
+		}
+
+		#top{
+			width: 200px;		
+			margin-top: 50px;
+			margin-left: 180px;
+			background:white url(images/003.jpg) no-repeat 40px;
+			text-indent: 90px;
+			font-size: 16px;
+		}
+		#bottom{
+			width: 200px;
+			height: 508px;
+			margin-top: 12px;
+			margin-left: 180px;			
+			text-indent: 60px;
+			background-color: white;
+			display: inline-block;
+			
+		}
+		#right{
+			display: inline-block;
+			width: 800px;
+			height: 500px;
+			background-color:#fff;
+			position: absolute;
+			left: 400px;
+			top: 105px;					
+		}
+		#right>ul>li{
+			display: inline-block;
+			list-style-type:none;
+			width:180px;
+			height:230px;
+			border: 1px solid #dbdbdb;
+			margin: 0px 0px 0px 10px;
+			text-align: center;
+			font-size: 15px;
+			color: #333;	
+		}
+
+		#right>ul>li>img{
+			margin-top: 10px;
+		}	
+		#base{
+			width: 100%;
+			height: 247px;
+			background-color: #2e2e2e;
+			margin-top: 5px;
+		}
+		#base>ul{
+			border-bottom: 1px solid #454545;
+			width: 1100px;
+			height: 160px;
+			margin: 0 auto;
+			text-align: center;	
+		}
+		#base>ul>li{
+			display: inline-block;			
+			width: 120px;
+			height: 150px;
+			list-style-type:none;
+			color: #fff;
+			line-height: 40px;
+			margin-right: 100px;			
+		}
+		#base>ul>li>a{
+			text-decoration: none;
+			color: #fff;
+			font-size: 14px;
+		}
+		#base>p{
+			text-align: center;
+			color:#9c9c9c;				
+		}
+		.one{
+			padding-top: 17px;
+		}
+		.two{
+			font-size: 16px;
+			color: #a3a3a3;
+			margin-bottom: 5px;
+		}
+	</style>
+</head>
+<body>
+	<form action="#" method="post">
+	<div id="header">
+		<span id="b">我的收藏&nbsp;E族之家手机版&nbsp;</span>
+		<img src="images/qq.jpg">&nbsp;328203328
+		<p>扫描加入&nbsp;欢迎来到E族之家，请登录|注册</p>
+	</div>
+	<div id="nav">
+		<input type="text" name="search" value="请输入关键词！" id="text"/>
+		<input type="button" value="搜索"  name="bu" id="button" />
+		<div></div>
+		<ul>
+			<li id="li1"><a href="#">首页</a></li>
+			<li><a href="#">E族生活</a></li>
+			<li><a href="#">E族服务</a></li>
+			<li><a href="#">E族爱心</a></li>
+		</ul>
+	</div>
+	<div id="banner">
+		<span>当前位置：E族爱心>食品</span>
+		<div id="left">
+			<div id="top">全部分类</div>
+			<div id="bottom">
+				<p style="color: #ff3a27;margin-top:18px ">>食品</p>
+				<p style="margin-top:18px">>生活用品</p>
+			</div>
+		</div>
+		<div id="right">
+		<ul>
+			<li>
+				<img src="images/l.png" class="one">
+				<p><span class="two">精品辣椒</span><br>¥90.00</p>
+			</li>
+			<li >
+				<img src="images/b.png" class= "one">
+				<p><span class="two">特级百香果三斤</span><br>¥90.00</p>
+			</li>
+			<li>
+				<img src="images/p.png">
+				<p><span class="two">万威啤酒500ml</span><br>¥90.00</p>
+			</li>
+			<li>
+				<img src="images/s.png">
+				<p><span class="two">万威啤酒500ml</span><br>¥90.00</p>
+			</li>
+			<li>
+				<img src="images/l.png" class="one">
+				<p><span class="two">精品辣椒</span><br>¥90.00</p>
+			</li>
+			<li >
+				<img src="images/b.png" class="one">
+				<p><span class="two">特级百香果三斤</span><br>¥90.00</p>
+			</li>
+			<li>
+				<img src="images/p.png">
+				<p><span class="two">万威啤酒500ml</span><br>¥90.00</p>
+			</li>
+			<li>
+				<img src="images/s.png">
+				<p><span class="two">万威啤酒500ml</span><br>¥90.00</p>
+			</li>
+		</ul>
+		</div>
+	</div>
+	<div id="base">
+		<ul>
+			<li >
+				<a href="#" style="font-size: 16px;">新手上路</a><br>
+				<a href="#" >售后流程</a><br>
+				<a href="#">购物流程</a><br>
+				<a href="#">订购方式</a>
+			</li>
+			<li >
+				<a href="#" style="font-size: 16px;">配送方式</a><br>
+				<a href="#">货到付款区域</a><br>
+				<a href="#">配送支付查询</a><br>
+				<a href="#">支付方式说明</a>
+			</li>
+			<li >
+				<a href="#" style="font-size: 16px;">购物指南</a><br>
+				<a href="#">常见问题</a><br>
+				<a href="#">订购流程</a><br>
+				<a href="#">注册新会员</a></li>
+			<li >
+				<a href="#" style="font-size: 16px;">售后服务</a><br>
+				<a href="#">退换货原则</a><br>
+				<a href="#">售后服务保证</a><br>
+				<a href="#">换货流程</a></li>
+			<li style="margin: 0px;">
+				<a href="#" style="font-size: 16px;">关于我们</a><br>
+				<a href="#">网站故障报告</a><br>
+				<a href="#">联系我们</a><br>
+				<a href="#">投诉与建议</a>
+			</li>
+		</ul>
+		<p style="margin-top:20px; ">E族生活&nbsp;&nbsp;|&nbsp;&nbsp;居家维修保养&nbsp;&nbsp;|&nbsp;&nbsp;住宿优惠信息&nbsp;&nbsp;|&nbsp;&nbsp;出行接送&nbsp;&nbsp;|&nbsp;&nbsp;E族活动&nbsp;&nbsp;|&nbsp;&nbsp;E族爱心&nbsp;&nbsp;|&nbsp;&nbsp;积分商城</p>
+		<p style="margin-top:5px; ">© 2017-2018&nbsp;&nbsp;E族之家&nbsp;&nbsp;版权所有，并保留所有权利。ICP备案证书号：粤ICP备17127392号</p>
+	</div>
+	</form>
+</body>
+</html>
